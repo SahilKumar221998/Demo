@@ -24,7 +24,7 @@ namespace SerializationAndDeserialization
             Console.WriteLine("_______________________________________________________________");
            foreach(var c in cont)
             {
-                Console.WriteLine(c);
+                Console.WriteLine(c.ToString());
             }
         }
     }
